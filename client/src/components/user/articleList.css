@@ -1,0 +1,70 @@
+img{
+    width: 200px;
+    border-radius: 20px;
+}
+.list{
+    display: flex;
+    gap:10px   
+}
+.list 
+ div{
+    text-decoration: underline;
+    color: blue;
+    
+}
+.list{
+    div:hover{
+        color: rgb(18, 125, 78);
+    }
+}
+.btnsearch{
+    display: flex;
+    
+    justify-items: end;
+}
+/* .table tbody tr td  {
+    padding: 10px;
+} */
+
+.table thead tr th {
+    padding: 5px;
+    background-color: #dddddd;
+}
+
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #dddddd;
+    display: flex;
+    align-items: center;
+}
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;   
+}
+.key{
+    color: red;
+    background-color: transparent;
+    border: solid red ;
+    border-radius: 10px;
+}
+.eye{
+    color: rgb(0, 89, 255);
+    background-color: transparent;
+    border: solid rgb(0, 89, 255) ;
+    border-radius: 10px;
+}
+
+
+
+/* AddList */
+.addList{
+    /* border: 1px solid rgb(179, 160, 160); */
+    input{
+        width: 100%;
+    }
+   
+}
